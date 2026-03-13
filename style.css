@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.header{
+    background-color: rgb(112, 174, 237);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px
+}
+
+body{
+    background-color: #fcfafa;
+}
+
+.speakers-grid{
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.speaker-card{
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.speaker-name{
+    font-size: 26px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+.speaker-title{
+    margin-bottom: 10px;
+}
+
+.speaker-company{
+    padding: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.speaker-bio{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.speaker-topic{
+    color: rgb(109, 109, 255);
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.speaker-website{
+    color: rgb(86, 128, 171);
+}
+
+.speaker-twitter{
+    color: rgb(86, 128, 171);
+}
+
+.speaker-linked{
+    color: rgb(86, 128, 171);
+}
+
+.icon{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
